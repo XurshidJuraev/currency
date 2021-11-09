@@ -1,0 +1,72 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("./../img/abstract-smooth-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color_1258-53377.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: yellow;
+}
+.flex{
+    width: 700px;
+    align-items: center;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.sum{
+    font-size: 45px;
+    color: rebeccapurple;
+}
+.sum:nth-child(odd){
+    padding-right: 20px;
+}
+.input_som{
+    width: 270px;
+    height: 70px;
+    border: none;
+    background-color: #00fff2;
+    font-size: 30px;
+}
+.input_som:hover{
+    background-color: red;
+}
+.input_som:active{
+    background-color: rgb(17, 0, 255);
+}
+.buttn{
+    margin-left: 478px;
+    width: 150px;
+    height: 80px;
+    margin-top: 50px;
+    border: none;
+    background-color: lime;
+    font-size: 30px;
+}
+.buttn:active{
+    background-color: slateblue;
+}
+.buttn:hover{
+    background-color: #bd00c3d0;
+}
+.hozir{
+    margin-left: 401px;
+    font-size: 35px;
+    color: fuchsia;
+    width: 299px;
+}
